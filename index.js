@@ -1,7 +1,6 @@
 const Canvas = require('./lib/canvas')
 const Image = require('./lib/image')
-const CanvasRenderingContext2D = require('./lib/context2d')
-const CanvasPattern = require('./lib/pattern')
+const CanvasRenderingContext2D = require('./lib/context2d')]
 const parseFont = require('./lib/parse-font')
 const packageJson = require('./package.json')
 const bindings = require('./lib/bindings')
@@ -61,7 +60,7 @@ module.exports = {
   Context2d: CanvasRenderingContext2D, // Legacy/compat export
   CanvasRenderingContext2D,
   CanvasGradient: bindings.CanvasGradient,
-  CanvasPattern,
+  CanvasPattern: bindings.CanvasPattern,
   Image,
   ImageData: bindings.ImageData,
   PNGStream,
